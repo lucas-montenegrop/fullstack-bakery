@@ -1,0 +1,57 @@
+body{
+background-color: aliceblue;
+cursor: url('../images/croissant_cursor_32.png') 10 10, auto;
+}
+
+header {
+color: brown;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+display: flex;
+justify-content: space-between; 
+align-items: center;        
+width: 100%;
+}
+.brand {font-size: 50px;}
+
+nav {
+  display: flex;
+  gap: 50px; 
+  justify-content: flex-end;
+}
+
+nav a {
+    color: brown;
+}
+
+main {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+ul li {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 2px solid blue;
+  background-color: blue;
+  padding: 10px;
+  margin: 5px 0;
+  max-width: 50px;
+  border-radius: 6px;
+  color: white;
+
+}
+
+.testimonial { 
+    background-color: chartreuse;
+}
+
+footer {
+     display: flex;
+  justify-content: center;
+  gap: 20px;
+  border: 2px solid blue;
+  background-color: blue;
+
+}
